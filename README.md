@@ -1,1 +1,3 @@
-# ddetr_swin
+# Transformers for End-to-End Object Detection
+
+One of the first areas of transformers usage in computer vision was object detection. Since Carion et al. presented Detr model in their ”End- to-End Object Detection with Transformers”, the use of transformers for the task of object detection has been the subject of great interest from researchers who expected the same revolution from transformers in com- puter vision that was in natural language processing in recent years. One of the most notable of these works was Zhu et al.’s Deformable DETR, which solved the problem of complex and long model training. In this pa- per, a modification of the architecture of transformers for object detection will be presented. We rethink the Deformable DETR model by replacing the outdated and inefficient ResNet backbone used in Carion et al.’s work with a more modern and efficient SWIN transformer.
